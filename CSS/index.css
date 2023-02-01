@@ -1,0 +1,38 @@
+body{
+    margin: 0cm;
+    color:black;
+    font-family: 'Helvetica', 'Arial', sans-serif   ;
+}
+
+header{
+    text-align: center;
+    background-color: bisque;
+    padding-bottom: 30px;
+}
+
+header h1{
+    color: yellow;
+}
+
+header img{
+    border-radius: 40px;
+    border-style: solid;
+    border-color: yellow;
+    width: 550px;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main h3{
+    color:rgb(20, 102, 255);
+}
+
+.bold{
+    font-size: 100px;
+    text-transform: capitalize;
+    font-style: bold;
+    text-align: center;
+}
