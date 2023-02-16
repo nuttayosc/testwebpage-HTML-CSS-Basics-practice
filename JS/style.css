@@ -1,14 +1,32 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1{
     font-size: 60;
-    color: blue;
 }
 
 body{
     background-color: aliceblue;
 }
 
+
 p{
     font-size: 30;
-    color:cyan;
+    color:rgb(0, 0, 0);
     font-family: sans-serif;
 }
+
+button {
+    border: none;
+    background-color: aquamarine;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+

@@ -8,11 +8,23 @@ var z = ["John", "Taobin", "Trivago"]; //Array Z
 var person = {firstName: "John", 
             lastName: "Taobin", 
             Hotel: "Trivago", 
-            fullName : function() {
-                return this.firstName+" "+this.lastName;
-                }
+            fullName : this.firstName+" "+this.lastName
             }; 
 
-// document.write(x+typeof(x));
-document.write(person.fullName);
-document.getElementById("demo").innerHTML = Name.fullName;
+var footn = "JS ACTIVE";
+
+
+const btn = document.getElementById('eventt');
+btn.addEventListener('mouseover', function onmouseover(event) {
+    myEvent();
+});
+btn.addEventListener('mouseleave', function onmouseleave(event) {
+    document.body.style.backgroundColor='white';
+});
+
+function myEvent(){
+    document.body.style.backgroundColor='black';
+}
+
+document.write(footn);
+// document.getElementById("demo").innerHTML = Name.fullName;
